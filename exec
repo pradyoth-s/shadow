@@ -1,0 +1,3 @@
+g++ -o "last" $1 `pkg-config opencv --cflags --libs`
+./last
+rm last
